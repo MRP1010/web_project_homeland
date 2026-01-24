@@ -4,6 +4,7 @@
   margin: 0 auto;
   gap: 30px;
   max-width: 830px;
+  padding-right: 140px;
 }
 
 .intro__title {
@@ -34,9 +35,33 @@
 .intro__text {
   color: #ffffff;
   font-family: "Inter-Regular";
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 30;
   margin: 0;
   max-width: 722px;
   line-height: 1.7;
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .intro {
+    max-width: 288px;
+    padding: 0;
+  }
+
+  .intro__title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  .intro {
+    padding: 0;
+    margin: 0 20px;
+    max-width: 545px;
+  }
+
+  .intro__title {
+    font-size: 45px;
+    max-width: 707px;
+  }
 }
