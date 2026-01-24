@@ -5,3 +5,26 @@
   gap: 30px;
   align-items: center;
 }
+
+.header__title {
+  font-size: 96px;
+  color: #ffffff;
+  margin: 0 auto;
+  max-width: 720px;
+  text-align: center;
+}
+
+.header__subtitle {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 50;
+  margin: 0 auto;
+  max-width: 720px;
+  text-align: center;
+}
+
+.header__image {
+  margin-bottom: 92px;
+  max-width: 100%;
+  object-fit: fill;
+}
