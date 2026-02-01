@@ -1,0 +1,87 @@
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "localidad1 localidad2 localidad3 localidad4"
+    "localidad5 localidad6 localidad7 localidad8";
+  grid-gap: 15px;
+  margin: 48px auto;
+  max-width: 1280px;
+}
+
+.photo-grid__item1 {
+  max-width: 284px;
+  max-height: 213px;
+  grid-area: localidad1;
+}
+
+.photo-grid__item2 {
+  width: 284px;
+  height: 213px;
+  grid-area: localidad2;
+}
+
+.photo-grid__item3 {
+  width: 284px;
+  height: 213px;
+  grid-area: localidad3;
+}
+
+.photo-grid__item4 {
+  width: 284px;
+  height: 213px;
+  grid-area: localidad4;
+}
+
+.photo-grid__item5 {
+  width: 284px;
+  height: 213px;
+  grid-area: localidad5;
+}
+
+.photo-grid__item6 {
+  width: 284px;
+  height: 213px;
+  grid-area: localidad6;
+}
+
+.photo-grid__item7 {
+  width: 284px;
+  height: 213px;
+  grid-area: localidad7;
+}
+
+.photo-grid__item8 {
+  width: 284px;
+  height: 213px;
+  grid-area: localidad8;
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .photo-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 38px 0;
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 545px) and (max-width: 900px) {
+  .photo-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .photo-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 900px;
+  }
+}
