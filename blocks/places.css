@@ -1,0 +1,15 @@
+.places {
+  font-family: "Inter-Regular";
+  font-size: 18px;
+  color: white;
+  margin: 60px auto;
+  max-width: 987px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .places {
+    max-width: 768px;
+  }
+}
